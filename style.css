@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 8px;
+    box-sizing: border-box;
+}
+header {
+    position:sticky;
+}
+.fixnavitems li {
+    list-style: none;
+    display: inline-block ;
+    
+}
+
+.fixnavitem{
+    margin-top: auto;
+    text-align: center;
+}
+.banner1{
+    border: 2px solid black;
+    height: 76px;
+}
+.banner2{
+    /* border: 2px solid red; */
+    height: 76px;
+    position: relative;
+    
+}
+.logo{
+    width: 55px;
+    float: left;
+    padding: 5px 0px;
+}
+.location {
+    float: left;
+    position:relative;
+    width: 302px;
+    height: 50px;
+    margin: 10px;
+}
+.searchbox{
+    float: left;
+    height: 50px;
+    width: 45%;
+    margin: 10px;
+    position: relative;
+}
+.navbtns{
+    float: left;
+    width: 300px;
+}
+.navbtnlogin{
+    float: left;
+    padding: 10px 30px;
+    margin-right: 45px;
+    
+}
+.login {
+    text-decoration: underline;
+    background: transparent;
+    border: none;
+    font-size: large;
+    margin-right: 10px;
+    font-weight: 200;
+}
+.login:hover{
+    text-decoration: none;
+}
+.sell {
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: large;
+    top: 42%;
+    left: 90%;
+}
+
+.sellimg{
+    width: 100px;
+    margin-right: 0px;
+}
+.navitems li {
+    list-style: none;
+    float: left;
+    padding: 5px 5px;
+
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+.allcat{
+    border: none;
+    width: 120px;
+}
+.h4allcat h4{
+    display: block;
+}
+.icons {
+    display: flex;
+
+    border: 1px solid black;
+}
+.icons div {
+    flex-wrap: wrap;
+}
+.icons img {
+    width: 100px;
+    
+    
+}
+.icons img:hover {
+    cursor: pointer;
+}
+.icons h4:hover{
+    cursor: pointer;
+}
+.icons h4 {
+    width: 85%;
+    text-align: center;
+    justify-content: center;
+}
+.ad1 {
+    width: 100%;
+    padding: 20px;
+    height: 80%;
+}
+.ad2 {
+    width: 75%;
+    display: block;
+    margin: auto;
+}
+.fa-location-dot {
+    float: left;
+    border: 1px solid black;
+    width: auto;
+}
+/* -------------------Cards------------------- */
+
+.h2 {
+    display: inline-block;
+}
+.viewmore {
+    /* position: relative; */
+    justify-content: right;
+    margin-right: 0px;
+}
+.mobilephonescards{
+    display: flex;
+}
+.card {
+    float: left;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    width: 30vw;
+    text-wrap: wrap;
+}
+.card img {
+    width: 22vw;
+    max-height: 250px;
+    position: center;
+    object-fit: cover;
+    
+}
+.card h4 {
+    display: inline-block;
+}
+.fa-heart {
+    text-align: end;
+    border: 1px solid black ;
+    
+
+}
+.carscards{
+    display: flex;
+}
+.car1 {
+    float: left;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    width: 30vw;
+    text-wrap: wrap;
+}
+.bikescards{
+    display: flex;
+}
+.housecards{
+    display: flex;
+}
+.tabcards{
+    display: flex;
+}
+.ad3 {
+    display: block;
+    width: 60%;
+    margin: auto;    
+}
+.footer {
+    border: 1px solid black;
+    background-color: rgba(189, 189, 194, 0.247);
+    display: flex;
+    width: 100%;
+}
+.popcatlist{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.trendsearchlist {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.aboutuslist {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.olxlist {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.sociallogo img {
+    width: 30px;
+}
+.appslink img {
+    width: 85px;
+}
+.followus {
+    width: 40%;
+    
+}
+.copyrights {
+    background-color: rgb(17, 116, 111);
+    text-align: right;
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+}
